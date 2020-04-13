@@ -1,0 +1,13 @@
+{% extends "blog/home.html" %}
+{% block content%}
+        <h5><p>Contact US Form</p></h5>
+        <p>Fill in your message and email id and we will get back to you. </p>
+        </br>
+        </br>
+        </br>
+        <form action='' method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Submit">
+        </form>
+{% endblock %}
