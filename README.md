@@ -1,0 +1,2 @@
+# PYNET
+Sample Django Project
